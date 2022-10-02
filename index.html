@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <title>終極密碼</title>
+</head>
+
+<body>
+  <header>
+    <h1>猜 猜 我 是 誰</h1>
+    <p class="between">（提醒：介於 1 到 20）</p>
+    <button class="btn again">再玩一次</button>
+    <div class="number">?</div>
+  </header>
+  <main>
+    <section class="left">
+      <input type="number" class="guess" />
+      <button class="btn check">下好離手</button>
+    </section>
+    <section class="right">
+      <p class="message">🛎 開始遊戲...</p>
+      <p class="label-score">💯 分數: <span class="score">20</span></p>
+      <p class="label-highscore">
+        🥇 最高紀錄: <span class="highscore">0</span>
+      </p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
